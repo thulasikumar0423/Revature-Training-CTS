@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM STRUCTURE</title>
+</head>
+<body>
+    <header><h1>MY SITE</h1></header>
+    <main>
+        <section id ="intro"><p>WELCOME!!!</p></section>
+        <section id="list"><ul><li>One</li><li>Two</li></ul></section>
+
+    </main>
+    <script>
+        //inspect the dom tree from Js
+        console.log("document.documentElement:",document.documentElement);
+        console.log("document.body:", document.body);
+        console.log("body child nodes:",document.body.childNodes);
+        //walk down to a node 
+        console.log("intro paragraph text:",document.getElementById('intro')
+        .firstElementChild.textContent);
+        
+        
+        
+        
+    </script>
+</body>
+</html>
