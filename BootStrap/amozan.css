@@ -1,0 +1,98 @@
+    body {
+      background-color: #f3f3f3;
+    }
+
+     /* Top Navbar
+    .top-nav {
+      background-color: #131921;
+      color: white;
+    }
+
+    .top-nav .nav-link {
+      color: white;
+      font-size: 14px;
+    }  */
+
+  .amazon-top-nav {
+  background-color: #131921;
+  height: 60px;
+}
+
+.search-form {
+  max-width: 700px;
+}
+
+.search-btn {
+  background-color: #febd69;
+  border: none;
+}
+
+.location-box {
+  line-height: 1.1;
+}
+
+
+
+
+
+    /* Bottom Navbar */
+    .bottom-nav {
+      background-color: #232f3e;
+    }
+
+    .bottom-nav .nav-link {
+      color: white;
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+
+    /* Carousel text area */
+    .carousel-item {
+      background-color: #ffe6f0;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    /* Cards */
+    .card {
+      height: 100%;
+    }
+    .card img {
+  height: 120px;
+  object-fit: cover;
+}
+
+.card small {
+  display: block;
+  margin-top: 4px;
+}
+
+.card a {
+  color: #007185;
+  font-size: 14px;
+}
+
+.amazon-footer {
+  background-color: #131a22;
+  color: #ddd;
+  font-size: 12px;
+}
+
+.amazon-footer a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.amazon-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin-top: 5px;
+  color: #aaa;
+}
+
