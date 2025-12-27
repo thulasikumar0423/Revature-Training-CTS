@@ -14,62 +14,49 @@
 
 
 <!-- ================= AMAZON TOP NAVBAR ================= -->
-<nav class="navbar amazon-top-nav">
-  <div class="container-fluid d-flex align-items-center">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <a class="navbar-brand fw-bold" href="#">amazon.in</a>
 
-    <!-- Logo -->
-    <a class="navbar-brand text-white fw-bold me-3" href="#">
-     <span class="text-warning"> amazon.in</span>
-    </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#amazonNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="amazonNav">
 
     <!-- Location -->
-    <div class="text-white small me-3 location-box">
-      <div>Delivering to Chennai 600009</div>
-      <strong>📍 Update location</strong>
-    </div>
+    <span class="navbar-text text-white me-3">
+      Delivering to Salem 636003
+    </span>
 
     <!-- Search -->
-    <form class="d-flex flex-grow-1 me-3 search-form">
-
-      <div class="dropdown">
-        <button class="btn btn-light dropdown-toggle rounded-0" data-bs-toggle="dropdown">
-          All
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">All Categories</a></li>
-          <li><a class="dropdown-item" href="#">Mobiles</a></li>
-          <li><a class="dropdown-item" href="#">Electronics</a></li>
-          <li><a class="dropdown-item" href="#">Fashion</a></li>
-           <li><a class="dropdown-item" href="#">Home Appliances</a></li>
-            <li><a class="dropdown-item" href="#">Groceries</a></li>
-        </ul>
-      </div>
-
-      <input class="form-control rounded-0" type="search" placeholder="Search Amazon.in">
-
-      <button class="btn btn-warning rounded-0 search-btn">🔍</button>
+    <form class="d-flex flex-grow-1 mx-2">
+      <select class="form-select w-auto">
+        <option>All</option>
+        <option>Books</option>
+        <option>Electronics</option>
+         <option>Appliances</option>
+          <option>Groceries</option>
+           <option>Fashion</option>
+      </select>
+      <input class="form-control mx-1" type="search" placeholder="Search Amazon.in">
+      <button class="btn btn-warning">🔍</button>
     </form>
 
     <!-- Right Menu -->
-    <div class="d-flex align-items-center gap-3 text-white">
-      <div>🇮🇳 EN</div>
-
-      <div class="small">
-        Hello, sign in<br>
-        <strong>Account & Lists</strong>
-      </div>
-
-      <div class="small">
-        Returns<br>
-        <strong>& Orders</strong>
-      </div>
-
-      <div class="fw-bold">🛒 Cart</div>
-    </div>
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hello, sign in<br><strong>Account & Lists</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Returns<br><strong>& Orders</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fw-bold" href="#">Cart</a>
+      </li>
+    </ul>
 
   </div>
 </nav>
-
 
 <!-- ================= BOTTOM NAVBAR ================= -->
 <nav class="navbar navbar-expand-lg bottom-nav px-3">
